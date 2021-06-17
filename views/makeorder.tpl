@@ -1,6 +1,5 @@
 % rebase('layout.tpl', title=title, year=year)
 
-<h2>{{ title }}.</h2>
-<h3>{{ message }}</h3>
+<h2>Hi! Let's make an order!</h2>
 
 <p>Use this area to provide additional information.</p>
