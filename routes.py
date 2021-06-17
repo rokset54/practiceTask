@@ -6,30 +6,30 @@ from bottle import route, view
 from datetime import datetime
 
 @route('/')
-@route('/home')
-@view('index')
-def home():
+@route('/homepage')
+@view('homepage')
+def homepage():
     """Renders the home page."""
     return dict(
         year=datetime.now().year
     )
 
-@route('/contact')
-@view('contact')
-def contact():
+@route('/orderslist')
+@view('orderslist')
+def orderslist():
     """Renders the contact page."""
     return dict(
-        title='Contact',
+        title='ORDERSLIST',
         message='Your contact page.',
         year=datetime.now().year
     )
 
 @route('/makeorder')
 @view('makeorder')
-def about():
+def makeorder():
     """Renders the about page."""
     return dict(
         title='Make an order',
-        message='Your application description page.',
+        message='Make an order',
         year=datetime.now().year
     )

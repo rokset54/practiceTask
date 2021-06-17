@@ -6,6 +6,7 @@
     <title>{{ title }} - My Bottle Application</title>
     <link rel="stylesheet" type="text/css" href="/static/content/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="/static/content/site.css" />
+    <link rel = "shortcut icon" href="https://atom.io/favicon.ico"/>
     <script src="/static/scripts/modernizr-2.6.2.js"></script>
 </head>
 
@@ -22,9 +23,9 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="/home">Home</a></li>
+                    <li><a href="/homepage">Home</a></li>
                     <li><a href="/makeorder">Make an order</a></li>
-                    <li><a href="/contact">Orders list</a></li>
+                    <li><a href="/orderslist">Orders list</a></li>
                 </ul>
             </div>
         </div>
